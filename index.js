@@ -1,16 +1,17 @@
-let Name = "Selorm Cecil";
+let age = 14;
 
-firstName = Name.slice(0,6);
+switch(age){
+    case 12:
+        console.log(age*2);
+        break;
+    case 13:
+        console.log(age*3);
+        break;
+    case 14:
+        console.log(age*4);
+        break;
+    default:
+        console.log(1*2);
 
-lastName = Name.slice(6)
-
-
-console.log(firstName,lastName)
-
-
-fName = Name.slice(0,Name.indexOf(" "));
-
-lName = Name.slice(Name.indexOf(" "))
-
-
-console.log(fName,lName)
+    
+}
